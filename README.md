@@ -1,27 +1,93 @@
-# BusBookingAngular18
+# 🚌 Bus Booking System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+![Angular](https://img.shields.io/badge/Angular-18.0.0-dd0031?style=flat-square&logo=angular)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-7952b3?style=flat-square&logo=bootstrap)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-## Development server
+A modern bus booking application built with Angular 18 that allows users to search for bus routes, view available seats, and book tickets online.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Bus Booking Demo](https://via.placeholder.com/800x400?text=Bus+Booking+App+Demo)
 
-## Code scaffolding
+## ✨ Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- 🔍 Search for bus routes by source and destination
+- 📅 Select travel dates with an intuitive calendar interface
+- 🚌 View available buses with details like timing, price, and ratings
+- 💺 Select seats with interactive seat layout
+- 💳 Secure payment integration
+- 📱 Fully responsive design for mobile and desktop
 
-## Build
+## 🚀 Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+- Node.js (v16.x or higher)
+- npm (v8.x or higher)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation
 
-## Running end-to-end tests
+1. Clone the repository:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone https://github.com/Lagadnakul/Bus-Booking.git
+cd Bus-Booking
+```
 
-## Further help
+2. Install dependencies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm start
+```
+
+4. Open your browser and navigate to `http://localhost:4200`
+
+## 🛠️ Tech Stack
+
+- **Framework**: Angular 18
+- **UI Library**: Bootstrap 5.3.3
+- **Icons**: Font Awesome 4.7.0
+- **State Management**: RxJS
+- **Testing**: Jasmine & Karma
+
+## 📝 Project Structure
+
+```
+src/
+  ├── app/
+  │   ├── pages/
+  │   │   ├── search/         # Search page with filters
+  │   │   └── booking/        # Seat selection and booking flow
+  │   ├── services/           # API and data services 
+  │   └── shared/             # Shared components, models and utilities
+  └── assets/                 # Static assets
+```
+
+## 🧪 Running Tests
+
+```bash
+# Unit tests
+npm test
+
+# End-to-end tests
+npm run e2e
+```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
